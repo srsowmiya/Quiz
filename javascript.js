@@ -35,23 +35,51 @@ const arr=[
     { option: "Hydrogen", correct: false }
   ]
 },{
-  question: "Which animal is known as the King of the Jungle?",
+  question: "What is the chemical symbol for gold?",
   answers: [
-    { option: "Elephant", correct: false },
-    { option: "Tiger", correct: false },
-    { option: "Lion", correct: true },
-    { option: "Cheetah", correct: false }
+    { option: "Au", correct: true },
+    { option: "Ag", correct: false },
+    { option: "Gd", correct: false },
+    { option: "Go", correct: false }
   ]
 },
 {
-  question: "What do bees make?",
+  question: "Who developed the theory of general relativity?",
   answers: [
-    { option: "Milk", correct: false },
-    { option: "Honey", correct: true },
-    { option: "Butter", correct: false },
-    { option: "Oil", correct: false }
+    { option: "Isaac Newton", correct: false },
+    { option: "Nikola Tesla", correct: false },
+    { option: "Albert Einstein", correct: true },
+    { option: "Galileo Galilei", correct: false }
   ]
 },
+{
+  question: "Which organ is responsible for filtering blood in the human body?",
+  answers: [
+    { option: "Lungs", correct: false },
+    { option: "Heart", correct: false },
+    { option: "Kidneys", correct: true },
+    { option: "Liver", correct: false }
+  ]
+},
+{
+  question: "Which planet rotates on its side?",
+  answers: [
+    { option: "Jupiter", correct: false },
+    { option: "Mars", correct: false },
+    { option: "Uranus", correct: true },
+    { option: "Neptune", correct: false }
+  ]
+},
+{
+  question: "What is the hardest natural substance on Earth?",
+  answers: [
+    { option: "Iron", correct: false },
+    { option: "Gold", correct: false },
+    { option: "Diamond", correct: true },
+    { option: "Quartz", correct: false }
+  ]
+}
+,
 {
   question: "How many days are there in a week?",
   answers: [
@@ -59,6 +87,15 @@ const arr=[
     { option: "6", correct: false },
     { option: "7", correct: true },
     { option: "8", correct: false }
+  ]
+},
+{
+  question: "What is the hardest natural substance on Earth?",
+  answers: [
+    { option: "Iron", correct: false },
+    { option: "Gold", correct: false },
+    { option: "Diamond", correct: true },
+    { option: "Quartz", correct: false }
   ]
 },
 {
@@ -71,58 +108,53 @@ const arr=[
   ]
 },
 {
-  question: "What is the opposite of hot?",
+  question: "What is the smallest prime number?",
   answers: [
-    { option: "Cold", correct: true },
-    { option: "Warm", correct: false },
-    { option: "Boiling", correct: false },
-    { option: "Cool", correct: false }
-  ]
-},{
-  question: "Which shape has 3 sides?",
-  answers: [
-    { option: "Square", correct: false },
-    { option: "Circle", correct: false },
-    { option: "Triangle", correct: true },
-    { option: "Rectangle", correct: false }
+    { option: "0", correct: false },
+    { option: "1", correct: false },
+    { option: "2", correct: true },
+    { option: "3", correct: false }
   ]
 },
 {
-  question: "What is the color of the sky on a clear day?",
+  question: "Who painted the Mona Lisa?",
   answers: [
-    { option: "Blue", correct: true },
-    { option: "Green", correct: false },
-    { option: "Red", correct: false },
-    { option: "Black", correct: false }
+    { option: "Vincent van Gogh", correct: false },
+    { option: "Pablo Picasso", correct: false },
+    { option: "Leonardo da Vinci", correct: true },
+    { option: "Michelangelo", correct: false }
   ]
 },
 {
-  question: "Which number comes after 9?",
+  question: "Which language is used to create websites?",
   answers: [
-    { option: "8", correct: false },
-    { option: "10", correct: true },
-    { option: "11", correct: false },
-    { option: "9", correct: false }
+    { option: "HTML", correct: true },
+    { option: "MS Word", correct: false },
+    { option: "Photoshop", correct: false },
+    { option: "Excel", correct: false }
   ]
 },
 {
-  question: "How many legs does a spider have?",
+  question: "Which planet has the most moons?",
   answers: [
-    { option: "6", correct: false },
-    { option: "8", correct: true },
-    { option: "4", correct: false },
-    { option: "10", correct: false }
+    { option: "Earth", correct: false },
+    { option: "Mars", correct: false },
+    { option: "Saturn", correct: true },
+    { option: "Venus", correct: false }
   ]
 },
 {
-  question: "What do you use to write on a blackboard?",
+  question: "Which gas do humans exhale?",
   answers: [
-    { option: "Pen", correct: false },
-    { option: "Pencil", correct: false },
-    { option: "Chalk", correct: true },
-    { option: "Crayon", correct: false }
+    { option: "Oxygen", correct: false },
+    { option: "Carbon Dioxide", correct: true },
+    { option: "Hydrogen", correct: false },
+    { option: "Nitrogen", correct: false }
   ]
 }
+
+
+
 
 
 
