@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: rgb(5, 37, 98);
+}
+.box{
+  background-color: white;
+  margin-top: 200px;
+  margin-left: 550px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 400px;
+  border: 2px black solid;
+  align-items: center;
+  padding: 10px 5px ;
+  gap: 10px;
+}
+#btns{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5px;
+  transition: all 0.3ms;
+}
+
+#btns button{
+  width: 300px;
+  height: 30px;
+}
+
+#btns button:hover{
+  color: white; 
+  background-color: black;
+
+}
+
+#next button{
+  height: 30px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+
+
